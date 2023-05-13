@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.projects {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #191c32;
+
+}
+
+.wrapper,
+.projects-headings {
+  display: block ;
+  width: 100%;
+  height: 100vh;
+  background-color: #191c32;
+  color: #fff;
+}
+
+.projects-headings {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #191c32;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+
+
+.menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style: none;
+}
+
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 5px;
+}
+
+.menu .active {
+  color: aqua;
+}
+
+.menu .activo {
+  color: aqua;
+}
+
+.menu .activa {
+  color: aqua;
+}
+
+.menu .activu {
+  color: aqua;
+}
+
+.menu a:hover {
+  color: #fff;
+}
+
+.brand {
+  margin-top: -6px;
+}
+
+.nombre {
+  color: darkorange;
+  font-size: small;
+
+}
+
+.slogan {
+  color: #fff;
+  font-size: small;
+}
+
+.otra {
+  color: #fff;
+}
+
+.otre {
+  color: darkorange;
+}
+
+.main {
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.h1 {
+  font-size: 3em;
+  color: aqua;
+}
+
+.span {
+  color: aqua;
+}
+
+.video,
+.projects-details {
+  padding: 5px 5px;
+  background-color: darkcyan;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, 60);
+}
+
+.video:hover {
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.h1 {
+  font-size: 3mm;
+
+}
+
+.name {
+  color: darkorange;
+}
+
+.imagen {
+  border: 6px solid aqua;
+  width: 250px;
+  height: 350px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 100vw;
+  align-items: center;
+}
+
+.about .img {
+  width: 80%;
+  grid-column: 1/5;
+}
+
+.aboutinfo {
+  grid-column: 5/10;
+  padding: 3em;
+}
+
+.aboutinfo h2 {
+  font-size: 2em;
+  color: #191c32;
+}
+
+.divider {
+  height: 4px;
+  width: 60px;
+  background-color: darkorange;
+  margin-top: 10px;
+  margin-bottom: 2.5em;
+}
+
+.projects-headings {
+  width: 100vw;
+  padding: 5mm;
+}
+
+.projects-headings h2 {
+  font-size: 2, 0em;
+}
+
+.projects-headings .container {
+  width: 80vw;
+  height: 88vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.card_img {
+  width: 870px;
+  height: 600px;
+  background-image: url(./7cf18cd4-89be-4e5c-a161-b24549d64091.jpg);
+  background-size: cover;
+}
+
+.card_img1 {
+  width: 870px;
+  height: 600px;
+  background-image: url(./d513dbb2-c70c-44a5-a993-7d456b190cab.jpg);
+  background-size: cover;
+}
+
+.contenedor {
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+}
+
+.img1 {
+  margin-top: 0;
+  width: 450px;
+  height: 700px;
+  justify-content: center;
+}
+
+.img2 {
+  margin-top: 0;
+  width: 450px;
+  height: 700px;
+  justify-content: center;
+}
+
+.videomusical {
+  text-decoration: none;
+  color: white;
+  padding: 5px 5px;
+  background-color: darkcyan;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  top: 500px;
+}
+
+.videomusical:hover {
+  background-color: skyblue;
+  box-shadow: none;
+}
+
+.contenedor1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card_img1 {
+  width: 100%;
+  height: 500px;
+  background-image: url(./04cee734-8867-49fc-b201-86dc4a1423ca.jpg);
+  background-size: cover;
+}
+
+.galeria {
+  width: 100%;
+  margin: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sorido0 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 25px;
+}
+
+.sorido0 img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+}
